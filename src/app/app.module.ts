@@ -4,10 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { MenuComponent } from './components/menu/menu.component';
+import { CadastroSeguroComponent } from './components/cadastro-seguro/cadastro-seguro.component';
+import { ListarSeguroComponent } from './components/listar-seguro/listar-seguro.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuComponent,
+    CadastroSeguroComponent,
+    ListarSeguroComponent
   ],
   imports: [
     BrowserModule,
