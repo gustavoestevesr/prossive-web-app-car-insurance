@@ -1,4 +1,4 @@
-export interface Proprietario {
+export interface IProprietario {
   nome: string;
   sobrenome: string;
   dataNascimento: string;
