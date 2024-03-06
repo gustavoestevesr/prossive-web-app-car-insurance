@@ -1,6 +1,7 @@
 export interface ICarro {
   codigo: string;
   nome: string;
-  placa?: string;
-  modelo?: string;
+  placa: string;
+  marca: string;
+  modelo: string;
 }
