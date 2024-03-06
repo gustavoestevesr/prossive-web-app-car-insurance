@@ -28,6 +28,9 @@ export class CarroService {
     return marcas.map((marca: Car) => ({
       codigo: marca.make_id,
       nome: marca.make_display,
+      marca: '',
+      modelo: '',
+      placa: '',
     }));
   }
 
